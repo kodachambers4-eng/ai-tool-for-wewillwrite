@@ -1,0 +1,17 @@
+{
+  "name": "duckai-agent-sync",
+  "version": "1.0.0",
+  "description": "A GitHub tool to connect an AI agent directly to a Duck.ai shared session",
+  "main": "index.js",
+  "bin": {
+    "duckai-agent": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ws": "^8.18.0",
+    "openai": "^4.0.0"
+  }
+}
